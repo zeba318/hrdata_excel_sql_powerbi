@@ -16,14 +16,15 @@
 1. [Project Overview](#1-project-overview)
 2. [Objectives](#2-objectives)
 3. [Project Scope & Tools](#3-project-scope--tools)
-4. [Data Workflow](#4-data-workflow)
-5. [Data Model & Schema](#5-data-model--schema)
-6. [Analysis & Metrics](#6-analysis--metrics)
-7. [Key Insights](#7-key-insights)
-8. [Recommendations](#8-recommendations)
-9. [Future Enhancements](#9-future-enhancements)
-10. [Conclusions](#10-Conclusions)
-11. [Author](#11-author)
+4. [Repository Structure](#4-REpository-Structure)
+5. [Data Workflow](#4-data-workflow)
+6. [Data Model & Schema](#5-data-model--schema)
+7. [Analysis & Metrics](#6-analysis--metrics)
+8. [Key Insights](#7-key-insights)
+9. [Recommendations](#8-recommendations)
+10. [Future Enhancements](#9-future-enhancements)
+11. [Conclusions](#10-Conclusions)
+12. [Author](#11-author)
 
 ---
 
@@ -58,6 +59,16 @@ SQL: Queried the Dataset, performed aggregations, analyzed attendance records, p
 Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attendance, Total Employee and Promotion Eligibility.
 
 
+## 4.Repository structure
+
+
+
+
+
+
+
+
+
 ## 5. Project Workflow
 
   1. Source: "Collected the Employee Performance Dataset from Kaggle."
@@ -70,26 +81,7 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 ## 6. Data Model & Schema
 
-<!--
-  Define your fields so that someone reading your analysis can follow along
-  without digging through your code.
 
-  WHAT GOOD LOOKS LIKE (one row example):
-  | transaction_id | string | Unique identifier per sales transaction | TXN-00482 |
-  | return_flag    | boolean | Whether the transaction included a return | TRUE |
-  | region_code    | string | Two-letter identifier for store region | "NE" |
-
-  WHAT TO AVOID:
-  ❌ Skipping this section because "the field names are self-explanatory."
-     They're not. Not to a reviewer. Not to you in six months.
-
-  📌 FOR SQL PROJECTS: If you have multiple tables, create one block per table.
-     Describe join keys and relationships here. Your ERD (Section 7) will
-     visualise what this section describes in text.
-
-  📌 FOR NON-SQL PROJECTS: Describe the shape of your dataset informally
-     if a formal schema doesn't apply. Even one paragraph is more helpful than nothing.
--->
 
 ### Dataset / Table: `[name]`
 
@@ -105,7 +97,7 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 *Add additional table blocks as needed for multi-table projects
 
-## 8. Analysis & Metrics
+## 7. Analysis & Metrics
 
 ### Analytical Approacch
 
@@ -121,7 +113,7 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 [Average Peer Ratings._] [Total Highest Attendance.] [Which Department has Highest Task Completion rate.] [Total Work Hours logged.] [Total Training Hours_]
 [Total Performing score.] [Low Attendance rate.] [No. of Employees Eligible for promotions.] [No. of Highest and Lowest Departments Eligible for Promotions.]
 
-## 9. Key Insights
+## 8. Key Insights
 
 **Insight 1:[Identified the Distribution of Employees across Different Departments.]
 
@@ -139,7 +131,7 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 **Insights8:[Identified employee Eligible for promotion to Support HR Decision Making.]
 
-## 10. Recommendations
+## 9. Recommendations
 
   1.Provide Additional Training and Skill Development Programs for Low-performing Employees.
   2.Recognized and Reward High-Performing Employees to Improve motivation and Retention.
@@ -148,7 +140,7 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
   5.Use Data-Driven Insights to Improve Workforce Planning, Performance Management, and Talent Development.
 
 
-## 12. Future Enhancements
+## 10. Future Enhancements
 
 - [ ] [Enhancement 1 - Integrate Real-time HR Data From HRMS or ERP Systems for live performance monitoring.]
 - [ ] [Enhancement 2- Build a Promotion Recommendation System Using Employee Performance and KPI Data.]
@@ -157,17 +149,17 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 - [_] [Enhancement 5 - Perform Sentimental Analysis on Employee Feedback and Survey Responses to Measure job Satisfaction.]
 
 
-## 13. Conclusions
+## 11. Conclusions
 
 This HR analytics Project Successfully analyzed Employee Performance, Attendance, Productivity, Training and Promotion Readiness Using SQL and Analyzed to identify Work forced trends and Key HR Metrics.
 An Interactive Dashboard was Developed to Visualize Employee and Department Performance, Enabling Data-Driven HR Decision-Making. The Insights and Recommendations from this Project Can Help Improve Employee 
 Performance, Optimize Training Programs, Support Fair Promotion Decisions, and Enhance Overall Workforce Efficiency.
 
-## 14. Author
+## 12. Author
 
 **[Zeba Hajera] **
 [Data Analyst]
 
 - 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android]
-- 💼 [Portfolio or GitHub profile URL]
+- 💼 [P ]
 - 📧 [zebahajera715@gmail.com]
