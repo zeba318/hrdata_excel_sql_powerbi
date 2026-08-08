@@ -233,79 +233,37 @@ erDiagram
 
 ## 8. Analysis & Metrics
 
-<!--
-  Explain what you measured and how - before you share what you found.
+### Analytical Approacch
 
-  WHAT GOOD LOOKS LIKE:
-  Metric: "Customer Return Rate"
-  Definition: "Number of transactions flagged as returns divided by total
-               transactions, calculated at product-category and regional grain."
-  Why It Matters: "Return rate - not sales volume - was hypothesised to
-                  explain regional revenue gaps. This metric tests that hypothesis."
-
-  WHAT TO AVOID:
-  ❌ Defining a metric only in code: SUM(returns) / COUNT(transaction_id)
-     That's an implementation. Write the plain-language definition here.
-     Both belong in your project - the definition in the README,
-     the implementation in the code.
--->
-
-### Analytical Approach
-
-[Describe how you approached the analysis. Were you exploring patterns? Testing a hypothesis? Building and validating a pipeline? Be honest about your method - exploratory work is valid, just call it that.]
+1.Analyzed Employee Performance across Different Departments.
+2.Evaluated Attendance trends and Workforce Productivityy.
+3.Analyzed Training Hours and Workforce Logged to Identify Productivity patterns.
+4.Identified Employees Eligibility for Promotional Based on Performance.
+5.Generated Actionable Insights to Support employees Development and performance Management.
+6.Enabled Data-Driven HR Decisions Making it through Interactive Visualizations and Reports.
 
 ### Key Metrics Defined
-
-| Metric | Plain-Language Definition | Why It Matters |
-|--------|--------------------------|----------------|
-| `[Metric 1]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 2]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 3]` | [What it measures, in one sentence] | [What decision or question it answers] |
-
-### Methods Used
-
-- [e.g., Descriptive statistics - distribution, central tendency, outlier detection]
-- [e.g., Trend analysis across [time period]]
-- [e.g., Segmentation / group comparison by [dimension]]
-- [e.g., Correlation analysis between [variable A] and [variable B]]
-- [e.g., SQL window functions for [specific aggregation]]
-- [e.g., Custom aggregation or transformation logic in [tool]]
-
----
+[No. of Employees.] [No. of Employees from Different Job Roles.] [No. of Highest Employees.] [Average Attendance rate.] [Average Performance rate.] [Average Task Completion.] 
+[Average Peer Ratings._] [Total Highest Attendance.] [Which Department has Highest Task Completion rate.] [Total Work Hours logged.] [Total Training Hours_]
+[Total Performing score.] [Low Attendance rate.] [No. of Employees Eligible for promotions.] [No. of Highest and Lowest Departments Eligible for Promotions.]
 
 ## 9. Key Insights
 
-<!--
-  Findings + implications. Not just what happened - what it means.
+**Insight 1:[Identified the Distribution of Employees across Different Departments.]
 
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Return rates, not sales volume, explain Region A's underperformance.
-      Region A's return rate on home goods was 34% - more than double the
-      company average. Revenue was not lost at the point of sale; it was
-      lost post-sale through refunds. This points to a fulfilment or
-      product quality issue specific to that region, not a demand problem."
+**Insight 2:[Analyzed the distribution of Employees by Job Role.]
 
-  WHAT TO AVOID:
-  ❌ "Region A had lower revenue than other regions in Q4."
-     (That's an observation. It describes what happened.
-      An insight says what it means and where to look next.)
+**Insight 3:[Evaluated the Average Attendance of Employees across the Organization.]
 
-  Aim for 3–6 insights. Quality over quantity.
--->
+**Insight 4:[Compared Department-Wise Attendance to Identify Departments with the Highest and lowest attendance.]
 
-**Insight 1: [Short descriptive headline]**
-[What you found + what it suggests. One short paragraph.]
+**Insight 5:[Analyzed the Average Task completion Rate, Peer Rating, and Performance.]
 
-**Insight 2: [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 6:[Evaluated Department-Wise Task Completion to Identify High Performing Departments.]
 
-**Insight 3: [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 7:[Analyzed Total Training Hours and Work Hours Logged across Department.]
 
-**Insight 4 (if applicable): [Short descriptive headline]**
-[What you found + what it suggests.]
-
----
+**Insights8:[Identified employee Eligible for promotion to Support HR Decision Making.]
 
 ## 10. Recommendations
 
