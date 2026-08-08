@@ -1,21 +1,16 @@
 # [Project Title]
-> *One sentence. What did you analyze, build, or solve - and why does it matter?*
+> *HR Dashboard Analysis*
 
----
+
 
 ## ⚙️ Project Type Flags
-> *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
 
-- [ ] Exploratory Data Analysis (EDA)
 - [ ] SQL Analysis / Querying
 - [ ] Dashboard / Data Visualization
-- [ ] Data Pipeline / ETL
-- [ ] Predictive Modelling / Machine Learning
-- [ ] Data Cleaning / Wrangling
-- [ ] End-to-End (multiple of the above)
-- [ ] Other: ___________
+- [ ] Data Cleaning
+- [ ] End-to-End Project
 
----
+
 
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
@@ -37,108 +32,38 @@
 
 ## 1. Project Overview
 
-<!--
-  Write 3–5 sentences in plain language.
-  Cover: context → problem → approach → outcome.
-  Read it out loud. If it sounds like a form - rewrite it.
+ This HR Analytics Project Analyzes Employee Performance, Attendance, Productivity, Training, and Promotion Readiness using SQL and Power BI. The data was cleaned and Analyzed to Evaluate 
+ key HR Metrics, Identify Performance trends, and Compare Department-Wise Performance and Interactive Power BI Dashboard was Developed to Visualize KIPS and generate actionable Insights,
+ Enabling HR teams to Make Data-Driven Decisions for Employee Development, Performance Management, and Promotion Planning.
 
-  WHAT GOOD LOOKS LIKE:
-  "A mid-size retail business was seeing inconsistent revenue across
-  its regional stores but couldn't identify the root cause. This project
-  explored 18 months of transaction data across five regions to determine
-  whether underperformance was driven by sales volume, pricing, or return
-  rates. The analysis revealed that one region's gap was almost entirely
-  explained by an unusually high return rate on a single product category -
-  a finding invisible in the company's top-level reporting."
 
-  WHAT TO AVOID:
-  "This project analyzes sales data to find trends and insights."
-  (Too vague. Could describe 10,000 projects. Describes none of them.)
--->
+**Problem Statement: ** [The Organization has Employee Data but lacks Clear insights into Employee Productivity, training, and Promotion Eligibility. The business needs to analyze Performance patterns, Recognize areas for Improvement, and Support better HR decision-Making.]
 
-**Context:** [The business, research, or personal situation that motivated this project.]
-
-**Problem Statement:** [The specific question or challenge you were addressing.]
-
-**Approach:** [In 1–2 sentences - how did you tackle it?]
-
-**Outcome:** [What did you produce or discover?]
-
----
 
 ## 2. Objectives
 
-<!--
-  Write objectives that are specific enough to succeed or fail.
-  Use action-oriented verbs: Identify, Determine, Quantify, Build, Evaluate.
+To Analyze Employee Performance, Productivity, Attendance, Training Data to Identify high performing Employees Driven HR Decision on Promotion and Employee Development.
+ 
 
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Determine whether customer churn rate correlates with support ticket volume."
-  ✅ "Identify the top three revenue-driving product categories across all regions."
-  ✅ "Build a reproducible pipeline that ingests and cleans daily sales exports."
-
-  WHAT TO AVOID:
-  ❌ "Explore the data."
-  ❌ "Gain insights."
-  ❌ "Understand trends."
-  (These can't fail - which means they can't succeed either.)
--->
-
-- **Primary Objective:** [The main thing you set out to do]
-- **Secondary Objective 1:** [Supporting goal]
-- **Secondary Objective 2:** [Supporting goal]
-- **Secondary Objective 3:** [Remove if not applicable]
-
-> 💡 *Every analysis decision in this project traces back to one of these objectives.*
-
----
-
-## 3. Project Scope & Tools
-
-### Scope
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  In Scope: "Transaction-level data for Regions A–E, Jan 2023–Jun 2024.
-             Analysis covers revenue, return rates, and product category performance."
-  Out of Scope: "Customer demographics and marketing spend data were excluded -
-                 demographic data was incomplete for two regions, and marketing
-                 data sits in a separate system outside this engagement."
-
-  WHAT TO AVOID:
-  ❌ Leaving Out of Scope blank. This is the section that protects your credibility.
-     If you don't define the fence, reviewers assume you missed things.
--->
-
-| Dimension | Details |
-|-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
+## 3. Dataset Info & Tools
+Name: Employee performance Dataset.
+Source: Kaggle.
+No. of Rows: 5000
+No. of Columns: 13
+Types: HR Data Contains Employee Demographics Details Department Info, job roles, Attendance Records, Perform Score, KPIS Score, Task Completion, Peer ratings, and Promotion Eligibility.
 
 ### Tools & Technologies
+Tool(s) Used 
+Excel, SQL, Power BI
 
-<!--
-  List only what you actually used on this project.
-  This is not your skills section - it's the project's technical context.
--->
+Excel: Conducted initial Data inspection and verified the dataset before analysis, also I changed some column names.
+SQL: Queried the Dataset, performed aggregations, analyzed attendance records, performed PIS Score, task Completion, peer rating, promotion Eligibility.
+Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attendance, Total Employee and Promotion Eligibility.
 
-| Category | Tool(s) Used |
-|----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
-
----
 
 ## 4. Repository Structure
 
-```
+
 [project-root]/
 │
 ├── data/
@@ -163,57 +88,17 @@
 │
 ├── project_metadata.yml      # Machine-readable metadata (optional)
 └── README.md                 # You are here
-```
 
-> ⚠️ *Delete folders you didn't use. An empty folder is worse than no folder.*
-> SQL-heavy projects: keep `queries/`. Analysis-only projects: keep `notebooks/`. Both? Keep both.
 
----
+## 5. Project Workflow
 
-## 5. Data Workflow
+  1. Source: "Collected the Employee Performance Dataset from Kaggle."
+  2. Ingestion: "Loaded into Excel Performed Detail inspection before Analysis and also changed column names."
+  3. Cleaning: "Performed Data cleaning and Analysis Business Insights Using SQL."
+  4. Transformation: "Created aggregation Queries, Group by queries ."
+  5. Analysis: "Developed Interactive Dashboard and KPIS using Power BI."
+  6. Output: "Summary report (PDF), processed CSV."
 
-<!--
-  Show how data moved through your project - from source to output.
-  Every transformation decision should be traceable here.
-
-  WHAT GOOD LOOKS LIKE:
-  1. Source: "Monthly CSV exports pulled from the internal POS system.
-              Five files, one per region, covering Jan 2023–Jun 2024."
-  2. Ingestion: "Loaded into Python using pandas. Files concatenated into
-                 a single dataframe (approx. 340,000 rows)."
-  3. Cleaning: "Removed 1.2% of rows with null transaction IDs.
-                Standardised date formats across regional files.
-                Resolved product category naming inconsistencies (3 variants → 1)."
-  4. Transformation: "Created a returns_rate field at product-category level.
-                      Aggregated to weekly and regional grain for trend analysis."
-  5. Analysis: "Descriptive statistics, regional comparison, return rate
-                segmentation by product category."
-  6. Output: "Summary report (PDF), annotated notebook, processed CSV."
-
-  WHAT TO AVOID:
-  ❌ "Data was cleaned and analysed." (No chain. No decisions. No trust.)
--->
-
-```
-[Data Source(s)]
-      ↓
-[Ingestion / Collection Method]
-      ↓
-[Cleaning & Transformation]
-      ↓
-[Analysis / Modelling / Querying]
-      ↓
-[Output / Visualisation / Reporting]
-```
-
-1. **Source:** [Where did the data come from? Format, size, access method.]
-2. **Ingestion:** [How was it brought in?]
-3. **Cleaning:** [What issues did you find and fix?]
-4. **Transformation:** [What new fields, aggregations, or structures did you create?]
-5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
-6. **Output:** [What form do the results take?]
-
----
 
 ## 6. Data Model & Schema
 
@@ -424,32 +309,11 @@ erDiagram
 
 ## 10. Recommendations
 
-<!--
-  Action-oriented. Addressed to a real audience.
-  Tied explicitly to the insight that supports each one.
-
-  WHAT GOOD LOOKS LIKE:
-  Priority: High
-  Recommendation: "Conduct a fulfilment audit for home goods deliveries
-                   in Region A - specifically investigating whether returns
-                   correlate with a particular warehouse, carrier, or SKU batch."
-  Based On: Insight 1 - return rate anomaly in Region A
-  Owner: Operations / Supply Chain team
-
-  WHAT TO AVOID:
-  ❌ "Improve the return rate."
-     (Not actionable. Doesn't say who, how, or where to start.)
-  ❌ "Further analysis is needed."
-     (This is a placeholder, not a recommendation.)
--->
-
-| Priority | Recommendation | Based On | Suggested Owner |
-|----------|---------------|----------|-----------------|
-| High | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
-
----
+  1.Provide Additional Training and Skill Development Programs for Low-performing Employees.
+  2.Recognized and Reward High-Performing Employees to Improve motivation and Retention.
+  3.Use Promotion Eligibility Metrics to Ensure Fair and Transparent Promotion Decisions.
+  4.Track Employee performance Continuously using Interactive HR Dashboards.
+  5.Use Data-Driven Insights to Improve Workforce Planning, Performance Management, and Talent Development.
 
 ## 11. Assumptions & Limitations
 
@@ -485,46 +349,24 @@ erDiagram
 
 ## 12. Future Enhancements
 
-<!--
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Automate the monthly data pull from the POS export folder using
-      a scheduled Python script, replacing the current manual process."
-  ✅ "Expand the return rate analysis to include carrier-level data,
-      which was unavailable in this dataset but exists in the logistics system."
+- [ ] [Enhancement 1 - Integrate Real-time HR Data From HRMS or ERP Systems for live performance monitoring.]
+- [ ] [Enhancement 2- Build a Promotion Recommendation System Using Employee Performance and KPI Data.]
+- [ ] [Enhancement 3- Implemented Employee Segmentation Based on Performance, Skills, and Productivity.]
+- [ ] [Enhancement 4 - Develop Predictive Models to Identify Employees at Risk of Low performance or attrition.]
+- [_] [Enhancement 5 - Perform Sentimental Analysis on Employee Feedback and Survey Responses to Measure job Satisfaction.]
 
-  WHAT TO AVOID:
-  ❌ "Add a machine learning model."
-     (Vague, and disconnected from the actual findings of this project.)
-  ❌ Listing aspirational features that don't follow logically from the work.
--->
 
-- [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
-- [ ] [Enhancement 2]
-- [ ] [Enhancement 3]
-- [ ] [Enhancement 4]
+## 13. Conclusions
 
----
-
-## 13. Deliverables
-
-| Deliverable | Description | Location |
-|-------------|-------------|----------|
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-
----
+This HR analytics Project Successfully analyzed Employee Performance, Attendance, Productivity, Training and Promotion Readiness Using SQL and Analyzed to identify Work forced trends and Key HR Metrics.
+An Interactive Dashboard was Developed to Visualize Employee and Department Performance, Enabling Data-Driven HR Decision-Making. The Insights and Recommendations from this Project Can Help Improve Employee 
+Performance, Optimize Training Programs, Support Fair Promotion Decisions, and Enhance Overall Workforce Efficiency.
 
 ## 14. Author
 
-**[Your Name]**
-[Your role or title - current or target]
+**[Zeba Hajera] **
+[Data Analyst]
 
 - 🔗 [LinkedIn URL]
 - 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
-
----
-
-*Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
+- 📧 [zebahajera715@gmail.com]
