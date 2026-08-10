@@ -86,27 +86,27 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| [customer_id] | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| [gender] | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| [seniorcitizen] | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-|  [partner] |
-| [dependents] |
- | [tenure] |
- | [phoneservice] |
- | [multiplelins] |
- |[internetservice]|
- |[onlinesecurity] |
- |[onlinebackup] |
- |[deviceprotection]|
- |[techsupport]|
- |[streamingtv]|
- |[streamingmovies] |
- |[contract]
- |[paperlessbilling]
- |[paymentmethod]
- |[monthlycharges]
- |[totalcharges_]
- |[churn]
+|[customer_id] | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+|[gender] | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+|[seniorcitizen] | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+|[partner] | [_]
+|[dependents] |
+|[tenure] |
+|[phoneservice] |
+|[multiplelins] |
+|[internetservice]|
+|[onlinesecurity] |
+|[onlinebackup] |
+|[deviceprotection]|
+|[techsupport]|
+|[streamingtv]|
+|[streamingmovies]|
+|[contract] |
+|[paperlessbilling] |
+|[paymentmethod] |
+|[monthlycharges] |
+|[totalcharges] |
+|[churn] |
  
 ## 7. Analysis & Metrics
 
