@@ -86,8 +86,9 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-|[customer_id] | [string / Text] | [What this field represents] | [Non-sensitive example] |
-|[gender] | [string / Text] | [What this field represents] | [Non-sensitive example] |
+|[Employee_id] | [string / Text] | [What this field represents] | [Non-sensitive example] |
+|[gender] 
+| [string / Text] | [What this field represents] | [Non-sensitive example] |
 |[seniorcitizen] | [integer] | [What this field represents] | [Non-sensitive example] |
 |[partner] | [string / Text]
 |[dependents] | [string / Text]
