@@ -86,28 +86,20 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-|[Employee_id] | [string / Text] | [What this field represents] | [Non-sensitive example] |
-|[gender] 
-| [string / Text] | [What this field represents] | [Non-sensitive example] |
-|[seniorcitizen] | [integer] | [What this field represents] | [Non-sensitive example] |
-|[partner] | [string / Text]
-|[dependents] | [string / Text]
-|[tenure] | [integer]
-|[phoneservice] | [string / Text]
-|[multiplelins] | [string / Text]
-|[internetservice]| [String / Text]
-|[onlinesecurity] | [string / Text]
-|[onlinebackup] | [string / Text]
-|[deviceprotection]| [string / Text]
-|[techsupport]| [string / Text_]
-|[streamingtv]| [string / Text]
-|[streamingmovies]| [_]
-|[contract] | []
-|[paperlessbilling] | []
-|[paymentmethod] | []
-|[monthlycharges] | []
-|[totalcharges] | []
-|[churn] | []
+|[Employee id] | [String / Integer] | [What this field represents] | [Non-sensitive example] |
+|[Name_] [string] | [What this field represents] | [Non-sensitive example] |
+|[Department] | [String] | [What this field represents] | [Non-sensitive example] |
+|[Job Role] | [string / Text]
+|[Performance score] | [string / Text]
+|[KPI Score_] | [integer]
+|[Attendance] | [string / Text]
+|[Peer Rating] | [string / Text]
+|[Task Completion]| [String / Text]
+|[Work Hours Logged] | [string / Text]
+|[Manage Feedback] | [string / Text]
+|[Training Hours]| [string / Text]
+|[Promotion Eligibility]| [string / Text_]
+
  
 ## 7. Analysis & Metrics
 
