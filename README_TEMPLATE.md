@@ -86,19 +86,19 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-|[Employee id] | [String / Integer] | [What this field represents] | [Non-sensitive example] |
-|[Name_] [string] | [What this field represents] | [Non-sensitive example] |
-|[Department] | [String] | [What this field represents] | [Non-sensitive example] |
-|[Job Role] | [string / Text]
-|[Performance score] | [string / Text]
-|[KPI Score_] | [integer]
-|[Attendance] | [string / Text]
-|[Peer Rating] | [string / Text]
-|[Task Completion]| [String / Text]
-|[Work Hours Logged] | [string / Text]
-|[Manage Feedback] | [string / Text]
-|[Training Hours]| [string / Text]
-|[Promotion Eligibility]| [string / Text_]
+|[Employee id] | [String / Integer] | [Unique Identifier assigned to each employee.] | [] |
+|[Name] |[string] | [Full name of the employee.] | [] |
+|[Department] | [String] | [Department in which the employee works.] | [] |
+|[Job Role] | [string] |[Job Role or role of the employee.] | []|
+|[Performance score] | [Float / Decimal] | [Overall Performance score assigned to be employee.] |[]|
+|[KPI Score_] | [Float / Decimal] | [Employee's KPI(key performance indicator)Score used to measure performance against targets.] | []|
+|[Attendance] | [Float / Decimal] | [Percentage of Working days attended by the employee.] |[]|
+|[Peer Rating] | [ Float / Decimal] | [Rating given to the employee by colleagues or peers.] | []|
+|[Task Completion]| [Float / Decimal] | [Percentage of assigned tasks completed by the employee.] | []|
+|[Work Hours Logged] | [Float / Decimal] | [Total number of working hours logged by the employee.] | []|
+|[Manage Feedback] | [string / Text] | [Feedback or evaluation provided by the employee's manager.] | []|
+|[Training Hours]| [Integer / Float] | [Number of hours the employee spent in training or professional development.] | []|
+|[Promotion Eligibility]| [string / Boolean] |[indicates whether ] |[]
 
  
 ## 7. Analysis & Metrics
