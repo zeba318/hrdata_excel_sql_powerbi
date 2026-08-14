@@ -86,19 +86,19 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-|[Employee id] | [String / Integer] | [Unique Identifier assigned to each employee.] | [] |
-|[Name] |[string] | [Full name of the employee.] | [] |
-|[Department] | [String] | [Department in which the employee works.] | [] |
-|[Job Role] | [string] |[Job Role or role of the employee.] | []|
-|[Performance score] | [Float / Decimal] | [Overall Performance score assigned to be employee.] |[]|
-|[KPI Score_] | [Float / Decimal] | [Employee's KPI(key performance indicator)Score used to measure performance against targets.] | []|
-|[Attendance] | [Float / Decimal] | [Percentage of Working days attended by the employee.] |[]|
-|[Peer Rating] | [ Float / Decimal] | [Rating given to the employee by colleagues or peers.] | []|
-|[Task Completion]| [Float / Decimal] | [Percentage of assigned tasks completed by the employee.] | []|
-|[Work Hours Logged] | [Float / Decimal] | [Total number of working hours logged by the employee.] | []|
-|[Manage Feedback] | [string / Text] | [Feedback or evaluation provided by the employee's manager.] | []|
-|[Training Hours]| [Integer / Float] | [Number of hours the employee spent in training or professional development.] | []|
-|[Promotion Eligibility]| [string / Boolean] |[indicates whether ] |[]
+|[Employee id] | [String / Integer] | [Unique Identifier assigned to each employee.] | [1001] |
+|[Name] |[string] | [Full name of the employee.] | [Rahul Sharma] |
+|[Department] | [String] | [Department in which the employee works.] | [Finance] |
+|[Job Role] | [string] |[Job Role or role of the employee.] | [Data Analyst]|
+|[Performance score] | [Float / Decimal] | [Overall Performance score assigned to be employee.] |[4.5]|
+|[KPI Score_] | [Float / Decimal] | [Employee's KPI(key performance indicator)Score used to measure performance against targets.] | [87.5]|
+|[Attendance] | [Float / Decimal] | [Percentage of Working days attended by the employee.] |[92.5]|
+|[Peer Rating] | [ Float / Decimal] | [Rating given to the employee by colleagues or peers.] | [4.2]|
+|[Task Completion]| [Float / Decimal] | [Percentage of assigned tasks completed by the employee.] | [95.0]|
+|[Work Hours Logged] | [Float / Decimal] | [Total number of working hours logged by the employee.] | [168.5]|
+|[Manage Feedback] | [string / Text] | [Feedback or evaluation provided by the employee's manager.] | [Excellent Performance] |
+|[Training Hours]| [Integer / Float] | [Number of hours the employee spent in training or professional development.] | [24]|
+|[Promotion Eligibility]| [string / Boolean] |[indicates whether the employee is eligible for promotions and other criteria.] | [Yes]
 
  
 ## 7. Analysis & Metrics
