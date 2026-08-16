@@ -1,5 +1,5 @@
 # [Project Title]
-> *HR Dashboard Analysis*
+> HR Dashboard Analysis
 
 
 
@@ -35,14 +35,14 @@
  Enabling HR teams to Make Data-Driven Decisions for Employee Development, Performance Management, and Promotion Planning.
 
 
-**Problem Statement: ** [The Organization has Employee Data but lacks Clear insights into Employee Productivity, training, and Promotion Eligibility. The business needs to analyze Performance patterns, Recognize areas for Improvement, and Support better HR decision-Making.]
+Problem Statement:  [The Organization has Employee Data but lacks Clear insights into Employee Productivity, training, and Promotion Eligibility. The business needs to analyze Performance patterns, Recognize areas for Improvement, and Support better HR decision-Making.]
 
-
+---
 ## 2. Objectives
 
 To Analyze Employee Performance, Productivity, Attendance, Training Data to Identify high performing Employees Driven HR Decision on Promotion and Employee Development.
  
-
+---
 ## 3. Dataset Info & Tools
 Name: Employee performance Dataset.
 Source: Kaggle.
