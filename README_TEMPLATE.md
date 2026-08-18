@@ -169,8 +169,8 @@ An Interactive Dashboard was Developed to Visualize Employee and Department Perf
 ---
 ## 12. Author
 
-**[Zeba Hajera] **
-[Data Analyst]
+ [Zeba Hajera] 
+   [Data Analyst]
 
 - 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android]
 - 💼 [https://github.com/zeba318]
