@@ -17,25 +17,23 @@
 2. [Objectives](#2-objectives)
 3. [Project Scope & Tools](#3-project-scope--tools)
 4. [Repository Structure](#4-REpository-Structure)
-5. [Data Workflow](#4-data-workflow)
-6. [Data Model & Schema](#5-data-model--schema)
-7. [Analysis & Metrics](#6-analysis--metrics)
-8. [Key Insights](#7-key-insights)
-9. [Recommendations](#8-recommendations)
-10. [Future Enhancements](#9-future-enhancements)
-11. [Conclusions](#10-Conclusions)
-12. [Author](#11-author)
+5. [Data Workflow](#5-data-workflow)
+6. [Data Model & Schema](#6-data-model--schema)
+7. [Analysis & Metrics](#7-analysis--metrics)
+8. [Key Insights](#8-key-insights)
+9. [Recommendations](#89recommendations)
+10. [Future Enhancements](#10-future-enhancements)
+11. [Conclusions](#11-Conclusions)
+12. [Author](#12-author)
 
 ---
 
 ## 1. Project Overview
 
- This HR Analytics Project Analyzes Employee Performance, Attendance, Productivity, Training, and Promotion Readiness using SQL and Power BI. The data was cleaned and Analyzed to Evaluate 
- key HR Metrics, Identify Performance trends, and Compare Department-Wise Performance and Interactive Power BI Dashboard was Developed to Visualize KIPS and generate actionable Insights,
- Enabling HR teams to Make Data-Driven Decisions for Employee Development, Performance Management, and Promotion Planning.
+ This HR Analytics Project Analyzes Employee Performance, Attendance, Productivity, Training, and Promotion Readiness using SQL and Power BI. The data was cleaned    and Analyzed to Evaluate key HR Metrics, Identify Performance trends, and Compare Department-Wise Performance and Interactive Power BI Dashboard was Developed to    Visualize KIPS and generate actionable Insights, Enabling HR teams to Make Data-Driven Decisions for Employee Development, Performance Management, and Promotion     Planning.
 
 
-Problem Statement:  [The Organization has Employee Data but lacks Clear insights into Employee Productivity, training, and Promotion Eligibility. The business needs to analyze Performance patterns, Recognize areas for Improvement, and Support better HR decision-Making.]
+Problem Statement: [The Organization has Employee Data but lacks Clear insights into Employee Productivity, training, and Promotion Eligibility. The business needs to analyze Performance patterns, Recognize areas for Improvement, and Support better HR decision-Making.]
 
 ---
 ## 2. Objectives
