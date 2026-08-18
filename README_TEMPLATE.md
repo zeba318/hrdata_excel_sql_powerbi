@@ -58,14 +58,23 @@ Power BI: Developed HR Analytics Dashboard, Created KPI Card for Average Attenda
 
 ---
 ## 4.Repository structure
+
+[project-root]/
+ |
+ |__data/
+ |    |__raw/                  # original, unmodified sources data - never edited
+ |    |__processed/            # cleaned and transformed data
+ |
+ |__queries/ 
+ |   |__transformation/        # presentation of queries 
+ |
+ |__ reports/                  # final outputs: PDFS, Word docs
+ |
+ |__visuals/                   # Exported charts, dashboard screenshots
+ |
+ |__README.md                  # project
+
  
-
-
-
-
-
-
-
 ---
 ## 5. Project Workflow
 
